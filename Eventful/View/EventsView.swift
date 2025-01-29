@@ -66,7 +66,7 @@ struct EventsView: View {
             }
             .sheet(isPresented: $showEditEventView) {
                 if let index = selectedEventIndex {
-                    EditEventView(events: $events, index: index) /
+                    EditEventView(events: $events, index: index) 
                 }
             }
             .sheet(isPresented: $showAddEventView) {
